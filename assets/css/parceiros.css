@@ -1,0 +1,38 @@
+.container{
+    text-align: center;
+}
+
+.container-titulo{
+    text-align: center;
+    padding: 48px 0 0px 0px;
+    color: #0038d2;
+    font-weight: bolder;
+}
+
+.sub-container{
+    margin-bottom: 16px;
+    margin: 0 auto;
+    background-color: #008DD2;
+    color: #fff;
+    padding: 38px;
+    width: 75%;
+    text-indent: 48px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    margin-bottom: 64px;
+}
+
+.sub-container a{
+    color: #fff;
+    font-weight: 800;
+}
+
+@media (max-width: 63em) {
+    .container-titulo{
+        padding: 16px 0 0 0;
+    }
+
+    .sub-container{
+        width: 95%;
+    }
+}

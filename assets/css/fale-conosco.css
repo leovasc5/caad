@@ -1,0 +1,109 @@
+.grid-duvidas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 64px;
+}
+
+.img-esquerda img{
+    text-align: center;
+    max-width: 196px;
+}
+
+.texto-direita h3{
+    text-align: center;
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+}
+
+.grid-fale-conosco{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.redes{
+    border-right: 1px solid #008DD2;
+    text-align: left;
+    padding-left: 128px;
+}
+
+.mesma-linha{
+    display: inline-flex;
+}
+
+.social-icon{
+    max-width: 64px;
+}
+
+.txt-grid{
+    color: #0038d2;
+    font-weight: 800;
+    padding-bottom: 16px;
+}
+
+.sub-txt-grid{
+    text-align: center;
+    padding:12px;
+}
+
+.ouv-txt{
+    color: #008DD2
+}
+
+.anonimato{
+    padding: 32px;
+}
+
+.anonimato img{
+    max-width: 64px;
+}
+
+.anonimato p{
+    padding-top: 8px;
+    color: #008DD2;
+}
+
+.ouv{
+    color: #008DD2;
+    border-color: #008DD2;
+}
+
+.qr-code{
+    padding-top: 32px;
+    max-width: 96px;
+}
+
+@media (max-width: 63em) {
+.grid-fale-conosco, .grid-duvidas{
+    display: block;
+}
+
+.grid-fale-conosco{
+    padding-top: 0px;
+}
+
+.social-icon{
+    padding-bottom: 0px !important;
+}
+
+.mesma-linha{
+    display: block;
+}
+
+.redes{
+    border-right: none;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.sub-txt-grid{
+    margin-bottom: 64px;
+}
+
+.anonimato{
+    padding-top: 0px;
+}
+
+}

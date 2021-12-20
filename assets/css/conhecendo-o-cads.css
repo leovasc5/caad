@@ -1,0 +1,155 @@
+.sub-container{
+    margin-bottom: 16px;
+    margin: 0 auto;
+    background-color: #008DD2;
+    color: #fff;
+    padding: 38px;
+    width: 75%;
+    text-indent: 48px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+.container-title{
+    padding-top: 64px;
+    padding-bottom: 32px;
+    text-align: center;
+    color: #0038d2;
+    font-weight: bolder;
+}
+
+.membros-title{
+    text-align: center;
+    margin-bottom: 3px #008DD2 solid;
+}
+
+.center-container{
+    display: table;
+    margin: 0 auto;
+}
+
+.esquerda .col-membros{
+    margin-right: 320px;
+}
+
+.center-container .direita{
+    margin-right: -64px;
+}
+
+.direita .col-membros{
+    margin-left: 320px;
+}
+
+.esquerda, .direita{
+    display: inline-block;
+    padding-bottom: 32px;
+}
+
+.esquerda .info-membros{
+    float: right;
+    padding: 64px 0px 0px 38px;
+    text-align: center;
+}
+
+.direita .info-membros{
+    text-align: center;
+    float: left;
+    padding: 64px 38px 0px 0px;
+}
+
+.foto{
+    min-width: 240px;
+    max-width: 240px;
+    min-height: 240px;
+    max-height: 240px;
+    margin-bottom: 16px;
+    border: 2px solid #f6f6f6;
+    border-radius: 48px;
+    background-color: rgb(187, 179, 179);
+    -webkit-box-shadow: 0px 0px 16px 3px rgb(184 175 184);
+    -moz-box-shadow: 0px 0px 16px 3px rgb(184 175 184);
+    box-shadow: 0px 0px 16px 3px rgb(184 175 184);
+}
+
+.info-membros .textos{
+    line-height: 16px;
+    padding-bottom: 16px;
+}
+
+.info-membros .funcao{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info-membros .nome{
+    font-size: 20px;
+}
+
+.info-membros-icon{
+    padding: 0;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.info-membros-icon:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 63em) {
+    .sub-container{
+        width: 95%;
+    }
+
+    .container-title{
+        text-align: center;
+        padding-left: 0px;
+        padding: 32px;
+    }
+
+    .membros-title{
+        text-align: center;
+    }
+
+    .center-container{
+        text-align: center;
+        display: table;
+        margin: 0 auto;
+    }
+
+    .esquerda .col-membros{
+        margin-right: 0px;
+    }
+
+    .direita .col-membros{
+        margin-left: 0px;
+    }
+    
+    .center-container .direita{
+        margin-right: 0px;
+    }
+    
+    .esquerda .info-membros{
+        float: none;
+    }
+    
+    .direita .info-membros{
+        float: none;
+    }
+
+    .esquerda .info-membros{
+        float: none;
+        padding: 0px 0px 32px 0px;
+    }
+
+    .direita .info-membros{
+        float: none;
+        padding: 0px 0px 32px 0px;
+    }
+
+    .col-membros{
+        display: table;
+        margin: 0 auto;
+    }
+    
+}
+

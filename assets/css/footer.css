@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.footer-basic {
+    padding:20px 0;
+    background-color: #d6e5ec;
+    color:#4b4c4d;
+    border-top: 1px solid #008DD2;
+}
+
+.redes-sociais{
+    height: 64px;
+    width: 100%;
+    background-color: #008DD2;
+}
+
+.redes-sociais h1{
+    text-align: center;
+    color: #f4f4f4;
+    padding: 12px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 0px 32px 32px 32px;
+}
+
+.col{
+    padding: 16px;
+    margin: 0 auto;
+}
+
+#endereco-titulo{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.endereco p{
+    margin: 0 auto;
+    text-align: center;
+    padding: 4px 0px;
+}
+
+.endereco a{
+    color: #4b4c4d;
+    text-decoration: underline;
+}
+
+#images{
+    display: grid;
+    padding: 32px;
+    text-align: center;
+}
+
+.cps-image{
+    max-width: 332px;
+    margin: 0 auto;
+}
+
+.logo-image{
+    max-width: 320px;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+
+#dev-titulo{
+    margin: 0 auto;
+    text-align: center;
+    padding: 24px 0px 0px 0px;
+}
+
+.dev-links{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+    margin-top: 10px;
+}
+
+.footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #008DD2;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+}
+
+.footer-basic .social i{
+    color: #0038d2;
+}
+
+.footer-basic .social > a:hover {
+    opacity:1.9;
+}
+
+.footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+}
+
+@media (max-width: 70em) {
+.footer-basic .social a{
+    /* font-size: 0px; */
+    /* padding: 0px; */
+    display: inline-table;
+}
+
+#images{
+    text-align: center;
+}
+
+.unifesp-image{
+    max-width: 148px;
+    margin: 0 auto;
+}
+
+.logo-image{
+    max-width: 196px;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+
+.grid{
+    display: block;
+}
+
+}
+    
+    /* Credit to https://epicbootstrap.com/snippets/footer-basic */
